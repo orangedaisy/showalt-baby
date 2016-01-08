@@ -1,0 +1,21 @@
+// ----------
+//
+// c-card
+//
+// card component for the display of most content
+//
+// ----------
+
+.c-card {
+  background: $c-white;
+  box-shadow: 10px 10px 0 $c-grey;
+  padding: 1rem;
+
+  & > *:first-child {
+    margin-top: 0;
+  }
+
+  & > *:last-child {
+    margin-bottom: 0;
+  }
+}
