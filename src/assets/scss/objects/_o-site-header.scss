@@ -8,6 +8,14 @@
 
 .o-site-header {
   align-items: center;
+  background: {
+    attachment: fixed;
+    image:
+      linear-gradient(rgba($c-primary, .5), rgba($c-primary, .5)),
+      url('/assets/img/header-bg.jpg');
+    position: center center;
+    size: cover;
+  }
   display: flex;
   flex-flow: column;
   height: 100vh;
