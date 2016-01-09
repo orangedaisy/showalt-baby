@@ -1,0 +1,43 @@
+// ----------
+//
+// c-site-nav
+//
+// styles for the individual components that make up the site nav
+//
+// ----------
+
+.c-site-nav {
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0 auto;
+  }
+
+  &__item {
+    display: block;
+
+    & + & {
+      margin-left: 1rem;
+    }
+  }
+
+  &__link {
+    font: {
+      family: $f-sans;
+      weight: 700;
+    }
+    opacity: .65;
+    transition: opacity 150ms ease;
+
+    &:hover,
+    &:focus {
+      opacity: 1;
+    }
+
+    &:active {
+      color: lighten($c-primary, 15%);
+    }
+  }
+}
