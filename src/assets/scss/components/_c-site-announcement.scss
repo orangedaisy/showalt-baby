@@ -8,5 +8,8 @@
 
 .c-site-announcement {
   color: $c-white;
-  text-shadow: 5px 5px 0 $c-grey;
+  text: {
+    align: center;
+    shadow: 5px 5px 0 $c-grey;
+  }
 }
