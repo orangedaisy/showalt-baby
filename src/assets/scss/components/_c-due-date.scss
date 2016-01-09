@@ -1,0 +1,16 @@
+// ----------
+//
+// c-due-date
+//
+// styles for our due date tracker
+//
+// ----------
+
+.c-due-date {
+  color: $c-white;
+  font: {
+    family: $f-serif;
+    style: italic;
+    weight: 400;
+  }
+}
