@@ -1,0 +1,18 @@
+// ----------
+//
+// c-site-section
+//
+// styles for specific components within site sections
+//
+// ----------
+
+.c-site-section {
+
+  &__header {
+    margin: 3.375rem auto;
+    text: {
+      shadow: 5px 5px 0 $c-secondary;
+      transform: uppercase;
+    }
+  }
+}
