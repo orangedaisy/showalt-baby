@@ -9,7 +9,9 @@
 .c-card {
   background: $c-white;
   box-shadow: 10px 10px 0 $c-grey;
-  padding: 1rem;
+  margin: 0 auto;
+  max-width: 60rem;
+  padding: 2.25rem;
 
   & > *:first-child {
     margin-top: 0;
@@ -19,7 +21,7 @@
     margin-bottom: 0;
   }
 
-  &__header {
-    text-shadow: 5px 5px 0 $c-secondary;
+  & + & {
+    margin-top: 2.25rem;
   }
 }
