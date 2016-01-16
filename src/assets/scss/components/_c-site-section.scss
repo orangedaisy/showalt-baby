@@ -10,9 +10,6 @@
 
   &__header {
     margin: 3.375rem auto;
-    text: {
-      shadow: 5px 5px 0 $c-secondary;
-      transform: uppercase;
-    }
+    text-shadow: 5px 5px 0 $c-secondary;
   }
 }
