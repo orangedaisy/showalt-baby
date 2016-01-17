@@ -25,5 +25,9 @@
         weight: 400;
       }
     }
+
+    blockquote + p {
+      text-align: right;
+    }
   }
 }
