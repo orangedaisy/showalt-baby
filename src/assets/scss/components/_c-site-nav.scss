@@ -40,15 +40,5 @@
     &:active {
       color: lighten($c-primary, 15%);
     }
-
-    &.active {
-      opacity: 1;
-      text-shadow: 2px 2px 0 $c-secondary;
-      transition: text-shadow $t-anim;
-
-      &:active {
-        text-shadow: none;
-      }
-    }
   }
 }
