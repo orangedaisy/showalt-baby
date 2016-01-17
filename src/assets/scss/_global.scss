@@ -1,0 +1,25 @@
+// ----------
+//
+// global
+//
+// global styles that apply directly to elements (base typography, etc)
+//
+// ----------
+
+a {
+  border-bottom: 1px solid rgba($c-primary,.125);
+  padding-bottom: .125rem;
+  position: relative;
+  transition:
+    border-bottom-color $t-anim,
+    top $t-anim;
+
+  &:hover,
+  &:focus {
+    border-bottom-color: $c-primary;
+  }
+
+  &:active {
+    top: .063rem;
+  }
+}
