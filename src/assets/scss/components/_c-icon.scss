@@ -9,6 +9,7 @@
 .c-icon {
 
   &--heart {
+    animation: pulse 2s infinite ease-out;
     fill: #e74c3c;
     height: 1rem;
     width: 1rem;
